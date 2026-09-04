@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Madhav 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="balloons">
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+    <span>🎈</span>
+  </div>
+
+  <main class="container">
+
+    <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+    <h2>MADHAV ❤️</h2>
+
+    <p class="subtitle">
+      Welcome to your Birthday Game! 🎂
+    </p>
+
+    <div class="cake">
+      🎂
+    </div>
+
+    <button id="startBtn" onclick="startGame()">
+      🎮 START GAME
+    </button>
+
+    <section id="game" class="game hidden">
+
+      <h3>🎁 Birthday Puzzle</h3>
+
+      <p>
+        Click the buttons in the correct order:
+      </p>
+
+      <div class="buttons">
+        <button onclick="checkAnswer(1)">🎈 1</button>
+        <button onclick="checkAnswer(2)">🎁 2</button>
+        <button onclick="checkAnswer(3)">🎂 3</button>
+      </div>
+
+      <p id="message"></p>
+
+      <div id="final" class="hidden">
+        <h2>🎉 YOU WON! 🎉</h2>
+        <p class="wish">
+          Happy Birthday Madhav! 🥳<br>
+          May your day be full of happiness, fun and success! ❤️
+        </p>
+
+        <button onclick="celebrate()">
+          🎊 CELEBRATE 🎊
+        </button>
+      </div>
+
+    </section>
+
+    <footer>
+      Made by Madhav ❤️<br>
+      © 2026 Madhav
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html># Game
